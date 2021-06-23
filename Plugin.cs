@@ -59,7 +59,7 @@ namespace DalamudPluginProjectTemplate
 
             this.commandManager.Dispose();
 
-            this.pluginInterface.SavePluginConfig(this.config);
+            this.pluginInterface.SavePluginConfig(this.configuration);
 
             this.pluginInterface.UiBuilder.OnBuildUi -= this.ui.Draw;
 
